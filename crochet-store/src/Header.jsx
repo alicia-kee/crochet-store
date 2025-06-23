@@ -3,7 +3,7 @@
 function Header(){
     return(
         <header>
-            <h1>LMN Crochet</h1>
+            <h1>Craftie Lemen</h1>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li> 
@@ -15,7 +15,6 @@ function Header(){
             <hr></hr>
         </header>
     ); //within return can write HTML
-
     //list items links don't go anywhere right now
 }
 
