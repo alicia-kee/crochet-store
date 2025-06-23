@@ -1,0 +1,17 @@
+.card{
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.productPic{
+  /* width: 287.2px;
+  height: 359px; */
+  max-width: 60%; /*60% of width available*/
+  height: auto; 
+}
