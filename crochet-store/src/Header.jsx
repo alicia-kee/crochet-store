@@ -1,13 +1,16 @@
-//Header component
-// React allows you to break a UI (User Interface) down into independent reusable chunks = components
+import headerPic from './assets/header-picture.png';
+
 function Header(){
     return(
         <header>
-            <h1>Craftie Lemen</h1>
-            <hr></hr>
+            <img className="header-pic" src={headerPic} alt="Header picture showing the store's brand"></img>
+            <div className="header-message-container">
+                <p className="header-message"> Bringing you handmade crochet comforts, lovingly crafted right here in Winnipeg.</p>
+            </div>
+            
         </header>
-    ); //within return can write HTML
-    //list items links don't go anywhere right now
+    ); 
+
 }
 
-export default Header //export component to use elsewhere
+export default Header 

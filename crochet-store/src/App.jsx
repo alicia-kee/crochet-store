@@ -5,7 +5,7 @@ import ProductCard from './ProductCard.jsx'
 
 function App() {
     return(
-        <div class="home-page">
+        <div className="home-page">
             <NavigationBar/>
             <Header/>
             <ProductCard/>

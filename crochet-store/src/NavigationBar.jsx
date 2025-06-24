@@ -2,9 +2,9 @@ import pfp from './assets/pfp.png';
 
 function NavigationBar(){
     return(
-        <div class="navigation-bar">
-            <img class="profile-pic" src={pfp} alt="Profile Picture"></img>
-            <nav class="navigation-bar-links">
+        <div className="navigation-bar">
+            <img className="profile-pic" src={pfp} alt="Profile Picture"></img>
+            <nav className="navigation-bar-links">
                 <ul>
                     <li><a href="#">Home</a></li> 
                     <li><a href="#">Products</a></li>

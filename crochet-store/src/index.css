@@ -10,7 +10,6 @@ html, body{ /*default settings*/
   font-family: Alegreya Sans, sans-serif;
 }
 
-/*Navigation Bar*/
 .navigation-bar{
   background-color: #FFF5F5;
   padding: 5px;
@@ -19,6 +18,9 @@ html, body{ /*default settings*/
   justify-content: space-between;
   align-items: center;
   height: 45px;
+
+  position: sticky; /*stays at same position as you scroll*/
+  top: 0px;
 }
 
 .profile-pic{
@@ -30,7 +32,7 @@ html, body{ /*default settings*/
 a{
   text-decoration: none;
   color: #FF8AAE;
-  font-size: 22px;
+  font-size: clamp(13px, 2vw, 22px); /*font-size can shrink (14px min, 22px max)*/
 }
 
 a:hover{
@@ -39,13 +41,37 @@ a:hover{
 
 li{
   display: inline-block; /* makes them list horizontally*/
-  margin: 0px 15px;
+  margin: 0px 13px;
 }
 
 .navigation-bar-links{
   display: flex;
   flex-direction: row;
   padding: 8px;
+}
+
+.header-pic{
+  width: 100%;
+}
+
+.header-message-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.header-message{
+  font-family: Courgette, sans-serif;
+  color: #FF8AAE;
+  font-size: clamp(16px, 2vw, 30px);
+  border: 4px solid #AB9CA3;
+  border-radius: 30px; 
+  padding: 45px 80px;
+  text-align: center;
+  max-width: 750px;
 }
 
 /*Best Sellers*/
