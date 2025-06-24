@@ -1,3 +1,54 @@
+html, body{ /*default settings*/
+  margin: 0;
+  padding: 0;
+}
+/*HOME PAGE*/
+.home-page{
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFC;
+  font-family: Alegreya Sans, sans-serif;
+}
+
+/*Navigation Bar*/
+.navigation-bar{
+  background-color: #FFF5F5;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+}
+
+.profile-pic{
+  width: 40px;
+  height: 40px;
+  border-radius: 200%;
+}
+
+a{
+  text-decoration: none;
+  color: #FF8AAE;
+  font-size: 22px;
+}
+
+a:hover{
+  color: #AB9CA3;
+}
+
+li{
+  display: inline-block; /* makes them list horizontally*/
+  margin: 0px 15px;
+}
+
+.navigation-bar-links{
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+
+/*Best Sellers*/
 .card{
   border: 1px solid black;
   border-radius: 10px;
