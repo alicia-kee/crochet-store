@@ -2,6 +2,14 @@ html, body{ /*default settings*/
   margin: 0;
   padding: 0;
 }
+
+hr.decorative-line{
+  height: 1px;
+  width: 90%;
+  background-color: #AB9CA3;
+  border-radius: 3px;
+}
+
 /*HOME PAGE*/
 .home-page{
   display: flex;
@@ -52,6 +60,7 @@ li{
 
 .header-pic{
   width: 100%;
+  margin-bottom: 0px;
 }
 
 .header-message-container{
@@ -61,6 +70,7 @@ li{
   justify-content: center;
   align-items: center;
   padding: 40px;
+  margin: -18px 20px;
 }
 
 .header-message{
@@ -69,26 +79,60 @@ li{
   font-size: clamp(16px, 2vw, 30px);
   border: 4px solid #AB9CA3;
   border-radius: 30px; 
-  padding: 45px 80px;
+  padding: 33px 80px;
   text-align: center;
   max-width: 750px;
 }
 
+.best-sellers-section{
+  padding: 10px;
+}
+
+.best-sellers-title{
+  padding: 0px 40px;
+  color: #AB9CA3;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.best-sellers-product-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 /*Best Sellers*/
 .card{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 10px;
-  box-shadow: 5px 5px 5px grey;
-  padding: 20px;
-  margin: 10px;
+  box-shadow: 1px 5px 4px lightgrey;
+  padding: 25px;
+  margin: 30px;
   text-align: center;
   max-width: 250px;
   display: inline-block;
 }
 
-.productPic{
+.product-pic{
   /* width: 287.2px;
   height: 359px; */
-  max-width: 60%; /*60% of width available*/
+  max-width: 93%; /*60% of width available*/
   height: auto; 
+  border-radius: 10px;
+}
+
+.product-name{
+  font-size: 26px;
+  margin: 10px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.product-price{
+  font-size: 23px;
+  margin: 10px;
+  margin-top: 0px;
+  text-align: left;
 }

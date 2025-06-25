@@ -1,13 +1,15 @@
 import blackBeePic from './assets/blackBee.jpeg'
 
-function ProductCard(){
+function ProductCard(props){
     return(
         <div className="card">
-            <img className="productPic" src={blackBeePic} alt="crochet bumblebee"></img>
+            {/* <img className="productPic" src={blackBeePic} alt="crochet bumblebee"></img>
             <h2>Bumblebee</h2>
-            <p>$10.00</p>
+            <p>$10.00</p> */}
 
-            <hr></hr>
+            <img className="product-pic" src={props.image}></img>
+            <p className="product-name">{props.productName}</p>
+            <p className="product-price">{props.price}</p>
         </div>
     );
 }
