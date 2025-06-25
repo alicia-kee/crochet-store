@@ -102,7 +102,7 @@ li{
   flex-wrap: wrap;
 }
 
-/*Best Sellers*/
+
 .card{
   /* border: 1px solid black; */
   border-radius: 10px;
@@ -136,3 +136,18 @@ li{
   margin-top: 0px;
   text-align: left;
 }
+
+/*FOOTER*/
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  background-color: #FFF5F5;
+}
+
+.footer-text{
+  color: #FF8AAE;
+}
+
