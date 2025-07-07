@@ -6,10 +6,10 @@ function NavigationBar(){
             <img className="profile-pic" src={pfp} alt="Profile Picture"></img>
             <nav className="navigation-bar-links">
                 <ul>
-                    <li><a href="#">Home</a></li> 
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Delivery</a></li>
-                    <li><a href="#">About</a></li>
+                    <li className="navigation-bar-li"><a href="#" className="navigation-bar-text">Home</a></li> 
+                    <li className="navigation-bar-li"><a href="#" className="navigation-bar-text">Products</a></li>
+                    <li className="navigation-bar-li"><a href="#" className="navigation-bar-text">Delivery</a></li>
+                    <li className="navigation-bar-li"><a href="#" className="navigation-bar-text">About</a></li>
                 </ul>
             </nav>
         </div>    
