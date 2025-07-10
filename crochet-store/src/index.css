@@ -25,7 +25,7 @@ hr.decorative-line{
   border-radius: 4px;
   box-shadow: 1px 5px 4px lightgrey;
   padding: 25px;
-  margin: 30px 20px;
+  margin: 30px 0px 30px 30px;
   text-align: center;
   width: 245px;
   display: inline-block;
@@ -65,14 +65,16 @@ hr.decorative-line{
   margin-top: 0px;
   text-align: left;
 }
-/*HOME PAGE*/
-.home-page{
+
+.home-page, .products-page{
   display: flex;
   flex-direction: column;
   background-color: #FFFFFC;
   font-family: Alegreya Sans, sans-serif;
+  width: 100%;
 }
 
+/*HOME PAGE*/
 .navigation-bar{
   background-color: #FFF5F5;
   padding: 5px;
@@ -146,6 +148,9 @@ hr.decorative-line{
 
 .best-sellers-section{
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .best-sellers-title{
@@ -159,7 +164,7 @@ hr.decorative-line{
 .best-sellers-product-cards{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
@@ -270,3 +275,37 @@ hr.decorative-line{
   color: #FF8AAE;
 }
 
+/* PRODUCTS PAGE*/
+
+.products-page-message{
+  background-color: #FFF7D3;
+  color: #FF8AAE;
+  font-family: Courgette, sans-serif;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  margin: 40px 0px;
+}
+
+.product-category-title{
+  color: #AB9CA3;
+  font-size: 35px;
+  margin: 25px 30px 10px 30px;
+}
+
+.animal-products-container, .character-products-container, .other-products-container{
+  margin: 30px 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.animal-product-cards, .character-product-cards, .other-product-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 30px;
+}

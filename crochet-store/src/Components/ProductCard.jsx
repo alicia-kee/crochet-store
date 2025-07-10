@@ -1,4 +1,3 @@
-import blackBeePic from '../assets/blackBee.jpeg'
 
 function ProductCard(props){
     return(
