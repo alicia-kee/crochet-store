@@ -104,7 +104,7 @@ hr.decorative-line{
   margin: 0px 13px;
   color: #FF8AAE;
   font-family: Alegreya Sans, sans-serif;
-  font-size: clamp(13px, 2vw, 22px); /*font-size can shrink (14px min, 22px max)*/
+  font-size: clamp(15px, 2vw, 22px); /*font-size can shrink (14px min, 22px max)*/
 }
 
 .navigation-bar-text:hover{
@@ -330,10 +330,43 @@ hr.decorative-line{
   padding: 50px;
   border: 1px solid black;
   border-radius: 30px;
-  margin: 0px 50px 50px 50px;
+  margin: 0px 40px 50px 40px;
 }
 
 .delivery-text{
-  font-size: 21px;
+  font-size: clamp(16px, 2vw, 21px);
   line-height: 1.6;
+}
+
+/*ABOUT*/
+.about-body{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 50px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.about-title-and-pic{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 36px;
+  font-weight: bold;
+  gap: 25px;
+}
+
+.about-pic{
+  width: 300px;
+  height: 300px;
+}
+
+.about-text{
+  width: 750px;
+  font-size: clamp(16px, 2vw, 21px);
+  line-height: 1.6;
+  margin: 30px;
+  padding: 10px;
 }
