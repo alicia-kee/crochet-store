@@ -1,8 +1,12 @@
+import Footer from '../Components/Footer.jsx'
 
 function About(){
     return(
-        <div>In About testing</div>
+        <div className="about-page">
+            <Footer/>
+        </div>
     );
 }
+
 
 export default About
