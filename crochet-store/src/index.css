@@ -94,14 +94,16 @@ hr.decorative-line{
   border-radius: 200%;
 }
 
-.navigation-bar-li{
-  display: inline-block; /* makes them list horizontally*/
+/* .navigation-bar-li{
+  display: inline-block; 
   margin: 0px 13px;
-}
+} */
 
 .navigation-bar-text{
   text-decoration: none;
+  margin: 0px 13px;
   color: #FF8AAE;
+  font-family: Alegreya Sans, sans-serif;
   font-size: clamp(13px, 2vw, 22px); /*font-size can shrink (14px min, 22px max)*/
 }
 

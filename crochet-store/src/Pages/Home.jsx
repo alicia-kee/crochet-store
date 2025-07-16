@@ -8,12 +8,11 @@ import Footer from '../Components/Footer.jsx'
 function Home(){
     return(
         <div className="home-page">
-            <NavigationBar/>
 
             {/* delete this later, just testing page link here */}
-            <Link to="/Products">Products</Link>
+            {/* <Link to="/Products">Products</Link>
             <Link to="/Delivery">Delivery</Link>
-            <Link to="/About">About</Link>
+            <Link to="/About">About</Link> */}
 
             <Header/>
             <BestSellers/>
