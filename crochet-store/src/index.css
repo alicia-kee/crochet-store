@@ -219,7 +219,7 @@ hr.decorative-line{
 
 .footer-title{
   color: #81787C;
-  font-size: 25px;
+  font-size: clamp(18px, 2vw, 25px);
   font-weight: bold;
   margin-bottom: 13px;
 }
@@ -238,12 +238,13 @@ hr.decorative-line{
 .footer-link, .footer-contact-link{
   text-decoration: none;
   color: #81787C;
-  font-size: 20px;
+  font-size: clamp(16px, 2vw, 20px);
   margin: 3px 0px;
 }
 
 .footer-link:hover, .footer-contact-link:hover{
   color: #FF8AAE;
+  cursor: pointer;
 }
 
 .contact-icon{
@@ -318,6 +319,7 @@ hr.decorative-line{
   flex-direction: column;
   align-items: center;
   padding: 30px;
+  margin: 50px 30px;
 }
 
 .delivery-title{
